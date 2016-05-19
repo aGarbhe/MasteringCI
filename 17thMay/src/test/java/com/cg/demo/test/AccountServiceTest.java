@@ -27,9 +27,8 @@ public class AccountServiceTest {
 		MockitoAnnotations.initMocks(this);
 		service= new AccountServiceImpl(repo);
 	}
-	/*************************
-	 *  Test cases for createAccount
-	 * **********************/
+	
+	//Test for  create account
 	// Customer object reference should not be null
 	// Amount should be greater than 500 otherwise throw InvalidInitialAmountException
 	// Account should be create successfully
